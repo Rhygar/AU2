@@ -3,6 +3,7 @@
 x = 0:0.01:2*pi;
 b = 4;
 plot(x,b.*cos(x.*(2.*pi)))
+figure;
 %Plotta lösningen i en graf i Matlab/Octave för A = 3 , ? = ? / 2 och ?0 = 1
 x = 0:0.1:2*pi;
 A = 3;
