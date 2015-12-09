@@ -16,26 +16,14 @@ plot(a*sin((v.*x) + d))
 figure;
 % a = amplitud, l = lamda, v = vinkelhastighet, d = delta,b = beta
 %Ekvation 2
-x = 0:0.01:2*pi;
 a = 2;
 l = 0.5;
 v = 1;
 d = (pi/2);
 b = sqrt((v^2)-(l^2));
 title('Ekvation 2')
-plot((a.*exp(1).^(-l*x)).*sin(b.*x+d))
+plot((a.*e^(-l*x)).*sin(b.*t))
 figure;
-%c1 = C1, c2 = C2, l = lamda, x = t
-%Ekvation 3
-x = 0:0.01:2*pi;
-c1 = 2;
-c2 = 2;
-l = 2;
 title('Ekvation 3')
-
 figure;
 title('Ekvation 4')
-
-
-
-
