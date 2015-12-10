@@ -1,26 +1,26 @@
 
 % a = amplitud, l = lamda, v = vinkelhastighet, d = delta,be = beta
 %Ekvation 2
-x = 0:0.01:50;
+t = 0:0.01:50;
 a = 2;
 l = 0.5;
 v = 1;
 d = (pi/2);
 be = sqrt((v^2)-(l^2));
 
-ekvation2 = (a.*exp(1).^(-l*x)).*sin((be.*x)+d);
+ekvation2 = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
-plot(x,ekvation2)
+plot(t,ekvation2)
 title('Ekvation 2');
 hold on;
-x = 0:0.01:50;
+t = 0:0.01:50;
 a = 2;
-l = ;
+l = 1;
 v = 1.5;
 d = (pi/2);
 be = sqrt((v^2)-(l^2));
 
-ekvation2c = (a.*exp(1).^(-l*x)).*sin((be.*x)+d);
+ekvation2c = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
-plot(x,ekvation2c)
+plot(t,ekvation2c)
 title('Ekvation 2c');
