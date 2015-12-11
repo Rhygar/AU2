@@ -11,7 +11,7 @@ ekvation4 = (c1.*(exp(1).^((-(l-be)).*t)))+(c2.*(exp(1).^((-(l+be)).*t)));
 
 plot(t,ekvation4)
 title('Ekvation 4');
-
+xlabel('tiden f(t)');
 hold on;
 
 t = 0:0.1:15;
@@ -25,3 +25,4 @@ ekvation4 = (c1.*(exp(1).^((-(l-be)).*t)))+(c2.*(exp(1).^((-(l+be)).*t)));
 
 plot(t,ekvation4)
 title('Ekvation 4');
+xlabel('tiden f(t)');

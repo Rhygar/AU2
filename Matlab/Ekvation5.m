@@ -11,3 +11,5 @@ t = 0:0.1:50;
 ekvation5 = ((b./(2.*m.*v0))*t.*sin(v0*t)) + (A.*sin(v0.*t + delta));
 plot(t,ekvation5)
 title('Ekvation 5');
+xlabel('tiden f(t)');
+ylabel('');

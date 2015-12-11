@@ -12,6 +12,7 @@ ekvation2 = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
 plot(t,ekvation2)
 title('Ekvation 2');
+xlabel('tiden f(t)');
 hold on;
 t = 0:0.01:50;
 a = 2;
@@ -24,3 +25,4 @@ ekvation2c = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
 plot(t,ekvation2c)
 title('Ekvation 2c');
+xlabel('tiden f(t)');
