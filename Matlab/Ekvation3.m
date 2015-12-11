@@ -9,4 +9,7 @@ ekvation3 = (c1.*t+c2).*(exp(1).^(-l.*t));
 
 plot(t,ekvation3)
 title('Ekvation 3');
-xlabel('tiden f(t)');
+xlabel('Tiden f(t)');
+ylabel('Amplitud');
+legend('Kritisk dämpning');
+

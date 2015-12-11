@@ -7,8 +7,9 @@ ekvation1 = a*sin((v.*t) + d);
 
 plot(t,ekvation1)
 title('Ekvation 1');
-xlabel('tiden f(t)');
-figure;
+xlabel('Tiden f(t)');
+ylabel('Amplitud');
+hold on
 
 t = 0:0.1:10;
 a = 5;
@@ -18,5 +19,4 @@ v = 2;
 ekvation1 = a*sin((v.*t) + d);
 
 plot(t,ekvation1)
-title('Ekvation 1 ändrad');
-xlabel('tiden f(t)');
+legend('Homogen lösning av ekvation 0','Ändring i amplitud, \omega och \delta ');

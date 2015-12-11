@@ -12,11 +12,11 @@ ekvation2 = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
 plot(t,ekvation2)
 title('Ekvation 2');
-xlabel('tiden f(t)');
 hold on;
+
 t = 0:0.01:50;
 a = 2;
-l = 1;
+l = 3;
 v = 1.5;
 d = (pi/2);
 be = sqrt((v^2)-(l^2));
@@ -24,5 +24,6 @@ be = sqrt((v^2)-(l^2));
 ekvation2c = (a.*exp(1).^(-l*t)).*sin((be.*t)+d);
 
 plot(t,ekvation2c)
-title('Ekvation 2c');
-xlabel('tiden f(t)');
+xlabel('Tiden f(t)');
+ylabel('Amplitud');
+legend('Underdämpning','Överdämpning');
