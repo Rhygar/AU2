@@ -4,7 +4,7 @@ c = 0;
 m = 1;
 v0 = 1;
 v = v0;
-delta = 0;
+delta = pi;
 fi = 0;
 t = 0:0.1:50;
 

@@ -12,4 +12,3 @@ title('Ekvation 3');
 xlabel('Tiden f(t)');
 ylabel('Amplitud');
 legend('Kritisk dämpning');
-

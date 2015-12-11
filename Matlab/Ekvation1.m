@@ -19,4 +19,4 @@ v = 2;
 ekvation1 = a*sin((v.*t) + d);
 
 plot(t,ekvation1)
-legend('Homogen lösning av ekvation 0','Ändring i amplitud, \omega och \delta ');
+legend('Homogen lösning av mx''(t) + kx(t) = 0 ','Ändring i amplitud, \omega och \delta ');
